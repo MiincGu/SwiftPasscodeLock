@@ -29,21 +29,21 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wK-Ol-7mm">
-                    <rect key="frame" x="0.0" y="60" width="600" height="24"/>
+                    <rect key="frame" x="0.0" y="75" width="600" height="24"/>
                     <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbT-GO-CPk">
-                    <rect key="frame" x="0.0" y="92" width="600" height="18"/>
+                    <rect key="frame" x="0.0" y="107" width="600" height="18"/>
                     <animations/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HcN-lo-9Jb" userLabel="Placeholders">
-                    <rect key="frame" x="120" y="140" width="360" height="16"/>
+                    <rect key="frame" x="120" y="144" width="360" height="16"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w14-Kb-Jnf" userLabel="Placeholder 1" customClass="PasscodeSignPlaceholderView" customModule="PasscodeLock" customModuleProvider="target">
                             <rect key="frame" x="118" y="0.0" width="16" height="16"/>
@@ -583,7 +583,7 @@
                 <constraint firstItem="H78-kl-y6L" firstAttribute="centerY" secondItem="0CR-0R-0Nr" secondAttribute="centerY" id="pZR-dd-h5U"/>
                 <constraint firstItem="HbT-GO-CPk" firstAttribute="top" secondItem="1wK-Ol-7mm" secondAttribute="bottom" constant="8" id="py8-TB-Plc"/>
                 <constraint firstItem="C9Z-3u-ohd" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="30" id="rlw-1B-YfC"/>
-                <constraint firstItem="1wK-Ol-7mm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.1" constant="30" id="v9k-gZ-cqB"/>
+                <constraint firstItem="1wK-Ol-7mm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.15" constant="30" id="v9k-gZ-cqB"/>
                 <constraint firstItem="0Ph-dj-v7R" firstAttribute="top" relation="greaterThanOrEqual" secondItem="0CR-0R-0Nr" secondAttribute="bottom" constant="4" id="wZA-9w-HzT"/>
                 <constraint firstItem="0CR-0R-0Nr" firstAttribute="top" secondItem="PbJ-Y8-MMf" secondAttribute="bottom" constant="20" id="wzG-QX-Upe"/>
                 <constraint firstItem="pLy-90-g1a" firstAttribute="leading" secondItem="CGh-ph-49t" secondAttribute="trailing" constant="40" id="x5W-TD-pFA"/>
