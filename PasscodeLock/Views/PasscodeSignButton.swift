@@ -29,6 +29,13 @@ public class PasscodeSignButton: UIButton {
     }
     
     @IBInspectable
+    public var borderWidth: CGFloat = 1.0 {
+        didSet {
+            setupView()
+        }
+    }
+    
+    @IBInspectable
     public var highlightBackgroundColor: UIColor = UIColor.clearColor() {
         didSet {
             setupView()
@@ -59,7 +66,7 @@ public class PasscodeSignButton: UIButton {
     
     private func setupView() {
         
-        layer.borderWidth = 1
+        layer.borderWidth = borderWidth
         layer.cornerRadius = borderRadius
         layer.borderColor = borderColor.CGColor
         
